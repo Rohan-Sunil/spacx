@@ -4,9 +4,9 @@ const CANVAS_HEIGHT = 900;
 const PLAYER_SPEED = 7;
 const LASER_SPEED = 10;
 const INITIAL_ENEMY_SPEED = 2;
-const ENEMY_SPAWN_RATE = 1000; // ms
+const ENEMY_SPAWN_RATE = 1000;// ms
 
-// Audio System (Synthesized)
+
 class AudioSystem {
     constructor() {
         this.ctx = new (window.AudioContext || window.webkitAudioContext)();
